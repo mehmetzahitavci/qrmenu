@@ -1,0 +1,33 @@
+id,name,description,price,image_url,featured,details,category_id,descriptionen,nameen
+457,Espresso,Yoğun ve aromatik İtalyan usulu espresso,100,/images/espresso.png,true,,1,Intense and aromatic Italian-style espresso,Espresso
+458,Cappuccino,Kremsi süt köpüğü ile klasik cappuccino,110,/images/Cappucinno07.11.2025.png,true,,1,Classic cappuccino with creamy milk foam,Cappuccino
+459,Latte,Yumuşak espresso ve buharla ısıtılmış süt,110,/images/Latte07.11.2025_11zon.png,false,,1,Smooth espresso with steamed milk,Latte
+460,Macchiato,Espresso üzerine süt köpüğü,120,/images/Maccihiato07.11.202.png,true,,1,Espresso topped with milk foam,Macchiato
+461,Americano,Espresso ve sıcak su,105,/images/Americano07.11.2025.png,false,,1,Espresso and hot water,Americano
+462,Türk Kahvesi,"Geleneksel Türk kahvesi, köpüklü servis",100,/images/241turkkahvesi.jpeg,true,,1,"Traditional Turkish coffee, served with foam",Turkish Coffee
+463,Filtre Kahve,Taze demlenmiş filtre kahve,105,/images/FiltreKahve12.11.2025.jpg,false,,1,Freshly brewed filter coffee,Filter Coffee
+464,Ice Latte,Soğuk süt ve buzlu espresso,120,/images/269ICEDLATTE.jpg,true,,2,Cold milk with iced espresso,Iced Latte
+465,Ice Americano,Buzlu americano,110,/images/2013iceamericano.jpg,true,,2,Iced americano coffee,Iced Americano
+466,Ice Mocha,Buzlu çikolatalı kahve,125,/images/Ice-mocha-1-9.jpg,false,,2,Iced chocolate coffee,Iced Mocha
+467,Ice White Mocha,Buzlu beyaz çikolatalı kahve,125,/images/Ice-white-mocha-1-10.jpg,false,,2,Iced white chocolate coffee,Iced White Mocha
+468,Coca-Cola,Soğuk içecek,90,/images/COLA.jpg,false,,2,Cold beverage,Coca-Cola
+469,Fanta,Portakallı gazlı içecek,90,/images/FANTA_.jpg,false,,2,Orange soda,Fanta
+470,Sprite,Limonlu gazlı içecek,90,/images/SPRITE_.jpg,false,,2,Lemon-lime soda,Sprite
+471,Fuse Tea Şeftali,Şeftalili buzlu çay,90,/images/FUSE_TEA_SEFTALI.jpg,false,,2,Peach iced tea,Fuse Tea Peach
+472,Su,Uludağ Su,90,/images/su_uludag.jpg,false,,2,Just Water,Water
+473,Sıcak Çikolatalı Cookie,Sıcak servis çikolatalı kurabiye,250,/images/HOTCHOCOLATECOOKIENEW.jpg,true,,3,Warm served chocolate cookie,Hot Chocolate Cookie
+474,Lotus Kruvasan,Lotus kremalı kruvasan,280,/images/LotusKruvasan2025.jpg,true,,3,Croissant with Lotus cream,Lotus Croissant
+475,Waffle,"Taze waffle, çesitli soslarla",250,/images/waffle.jpeg,false,,3,Fresh waffle with various toppings,Waffle
+476,Sütlaç,Geleneksel fırın sütlaç,200,/images/hamsikoysutlac.jpeg,false,,3,Traditional baked rice pudding,Rice Pudding
+477,Cheeseburger,Cheddar peynirli burger,315,/images/CHEESEBURGER-79.jpg,true,,4,Burger with cheddar cheese,Cheeseburger
+478,Hamburger,Klasik hamburger,290,/images/HAMBURGER-78.jpg,false,,4,Classic hamburger,Hamburger
+479,Tavuk Burger,Izgara tavuk burger,250,/images/TAVUKBURGER-6359-2.jpg,true,,4,Grilled chicken burger,Chicken Burger
+480,Sezar Salata,Klasik Sezar sos ile,220,/images/SEZARSALATA-65.jpg,true,,5,With classic Caesar dressing,Caesar Salad
+481,Ton Balıklı Salata,Taze ton balıklı salata,240,/images/TONBALIGISALATA-68.jpg,false,,5,Fresh tuna salad,Tuna Salad
+482,Gavurdagı Salatası,Geleneksel Gavurdağı salatası,185,/images/GAVURDAGI_SALATASI.jpg,false,,5,Traditional Gavurdagi salad,Gavurdagi Salad
+483,Pizza Margherita,"Domates sos, mozzarella, fesleğen",310,/images/PIZZAMARGHERITAISTANBUL.jpg,true,,6,"Tomato sauce, mozzarella, basil",Pizza Margherita
+484,Pizza Kavurmalı,"Kavurma, biber, domates",385,/images/PIZZAKAVURMALIISTANBUL.jpg,false,,6,"Roasted meat, peppers, tomatoes",Meat Pizza
+485,Mexican Pizza,Baharatlı Meksika pizzası,295,/images/PizzaMexican7291.jpg,false,,6,Spicy Mexican pizza,Mexican Pizza
+486,Penne Arrabiata,Baharatlı domates soslu makarna,225,/images/PENNEARRABIATTA-6467.jpg,false,,6,Spicy tomato sauce pasta,Penne Arrabiata
+487,Spaghetti Bolonez,Kıymalı bolonez sos ile,245,/images/SPHAGETTIBOLONEZ-73.jpg,true,,6,With meat bolognese sauce,Spaghetti Bolognese
+488,Tagliatelle Alfredo,Kremalı alfredo sos ile,235,/images/TAGLIATELLIALFREDO-77.jpg,false,,6,With creamy alfredo sauce,Tagliatelle Alfredo
