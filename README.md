@@ -17,7 +17,6 @@ A comprehensive, full-stack web application designed to digitize the restaurant 
   - [2. Backend Setup](#2-backend-setup)
   - [3. Frontend Setup](#3-frontend-setup)
 - [API Documentation](#-api-endpoints)
-- [Screenshots](#-screenshots)
 
 ---
 
@@ -77,45 +76,61 @@ QrMenuFinalProject/
 ├── WebReport.docx            # Final Project Report
 └── README.md                 # Project Documentation
 
-## Requirements
+#  Installation & Setup Guide
 
-- Node.js (v18+)
-- npm or yarn
+Follow these steps to run the project locally.
 
-## Installation
+## 1. Database Setup
+- Ensure **PostgreSQL** is installed and running.
+- Create a new database named `postgres` (or update `application.properties` to match your DB name).
+- Execute the SQL scripts found in `SourceCode/database/` to create tables and insert sample data.
 
-1. Navigate to the project directory:
-```bash
-cd frontend
+## 2. Backend Setup
+1. Navigate to the backend directory: `SourceCode/backend`
+2. Open the project in **IntelliJ IDEA** (or Eclipse).
+3. Open `src/main/resources/application.properties` and check your database credentials:
+
+```properties
+spring.datasource.url=jdbc:postgresql://localhost:5433/postgres
+spring.datasource.username=postgres
+spring.datasource.password=123456
 ```
 
-2. Install dependencies:
+4. Run the `EcommApplication.java` file.
+
+ Server will start at: http://localhost:8080
+
+## 3. Frontend Setup
+Open a terminal and navigate to the frontend directory:
+
+```bash
+cd SourceCode/frontend
+```
+
+Install the required dependencies:
+
 ```bash
 npm install
 ```
 
-3. Start the development server:
+Start the development server:
+
 ```bash
 npm start
 ```
 
-The application will run at [http://localhost:3000](http://localhost:3000).
+ Application will open at: http://localhost:3000
 
+---
 
+##  API Endpoints
 
-## Backend Connection
+The Backend provides the following REST endpoints via **ProductController**:
 
-The frontend connects to a Spring Boot-based backend API. Make sure the backend is running at `http://localhost:8080` by default.
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| GET | `/api/products` | Retrieve all products |
+| GET | `/api/products/{id}` | Retrieve a single product by ID |
+| GET | `/api/products/top` | Retrieve popular/featured products |
 
-## Available Scripts
-
-| Command | Description |
-|---------|-------------|
-| `npm start` | Runs the app in development mode |
-| `npm test` | Launches the test runner |
-| `npm run build` | Builds for production with optimizations |
-
-## Notes
-
-- This project was bootstrapped with [Create React App](https://create-react-app.dev/).
-- It is recommended to run the backend project with IntelliJ IDEA.
+---
